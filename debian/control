@@ -19,10 +19,6 @@ Architecture: all
 Section: python
 Depends: ${misc:Depends}, ${python3:Depends}, 
  python3-pkg-resources,
- python3-iptables,
- python3-psutil,
- libsystemd0,
  nmap,
- iptables,
  ghostunnel
 Description: Let's Encrypt for IoT (with more bells and whistles).
